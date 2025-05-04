@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Poster Preview</title>
+    <style>
+        /* Reset default margins and padding */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            background-color: black;
+        }
+        
+        /* Container for centering */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        /* SVG styling */
+        .svg-container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .svg-container img {
+            max-height: 100%;
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="svg-container">
+            <img src="product-poster-final.svg" alt="Product Poster">
+        </div>
+    </div>
+</body>
+</html>
